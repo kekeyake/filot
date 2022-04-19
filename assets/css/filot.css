@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* latin */
+@font-face {
+  font-family: 'Syncopate';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syncopate/v17/pe0pMIuPIYBCpEV5eFdKvtKqBP5v.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Avenir"), url(https://fonts.cdnfonts.com/s/71748/avenir_roman_12.woff) format("woff");
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html, body {
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  font-family: "Syncopate", dotum, "돋움", Arial, Sans-serif;
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+  background-color: #C5E1ED;
+}
+
+body, input, select, button, textarea, h1, h2, h3, h4, h5, h6, table {
+  line-height: 1.5;
+  font: inherit;
+  color: inherit;
+}
+
+html, body, div, form, input, select, button, textarea, legend, fieldset, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, blockquote, address, p, th, td, caption {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+img, fieldset {
+  vertical-align: middle;
+  border: 0 none;
+}
+
+input, select, textarea {
+  vertical-align: middle;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+hr {
+  display: none;
+}
+
+legend, .hide {
+  position: absolute;
+  left: -9999px;
+}
+
+table caption {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  text-indent: -9999px;
+  font-size: 0;
+  line-height: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.noscroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.noscroll::-webkit-scrollbar {
+  display: none;
+}
+
+.pc {
+  display: none !important;
+}
+
+.m {
+  display: block !important;
+}
+
+.pc_f {
+  display: none !important;
+}
+
+.m_f {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.header .inner {
+  width: 1250px;
+}
