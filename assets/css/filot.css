@@ -601,6 +601,10 @@ a {
   border-color: #eaeaea;
 }
 
+.input--text.valid {
+  background: #EAEAEA;
+}
+
 .insert-wrap {
   position: relative;
   padding-left: 180px;
@@ -1004,9 +1008,11 @@ a {
   font-size: 14px;
 }
 
+/* backtest */
 .backtest-wrap {
   max-width: 1250px;
   margin: 40px auto 0;
+  padding-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1031,4 +1037,59 @@ a {
 
 .backtest-wrap .banner-zone a {
   margin-top: 40px;
+}
+
+.backtest-form {
+  position: relative;
+}
+
+.backtest-form__tit {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.backtest-form__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.backtest-form__list li {
+  width: 256px;
+  margin-bottom: 15px;
+}
+
+.backtest-form__label {
+  font-size: 12px;
+}
+
+.backtest-form--testing::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.backtest-form--testing::after {
+  content: 'BACK TESTING...';
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  padding-top: 180px;
+  font-size: 26px;
+  background: url(../img/ico_filot.svg) no-repeat 50% 0/189px;
 }
